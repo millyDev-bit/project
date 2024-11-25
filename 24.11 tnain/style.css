@@ -1,0 +1,411 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	--boot: #fff;
+	--voot: #A9537B;
+	--noot: #555;
+	--doot: #CB4B60;
+}
+.block{
+	height: fit-content;
+	background: url(https://themewagon.github.io/voyage/images/banner-bg-02.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.block .row{
+	backdrop-filter: brightness(0.8);
+}
+.box{
+	height: 80px;
+}
+.box1{
+	height: 80px;
+}
+.box1 h2{
+	font-size: 34px;
+	font-weight: 800;
+	font-family: 'Alegreya', serif;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	color: var(--boot);
+	padding-top: 16px;
+	text-align: center;
+}
+.menu{
+	display: flex;
+	gap: 40px;
+	justify-content: space-around;
+	padding-top: 16px;
+	list-style: none;
+}
+.menu li a{
+	text-decoration: none;
+	color: var(--boot);
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 16px;
+}
+#smallMenu{
+	display: none;
+}
+.box2{
+	height: 500px;
+	text-align: center;
+	padding-top: 150px;
+}
+.box2 h2{
+	font-size: 100px;
+	font-family: 'Alegreya', serif;
+	font-weight: 900;
+	color: var(--boot);
+}
+.box2 h3{
+	font-size: 22px;
+	font-weight: 400px;
+	color: var(--boot);
+}
+.box2 p{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 35px;
+	color: var(--boot);
+	padding: 0 450px;
+}
+.box2 button{
+	padding: 10px 30px;
+	text-transform: uppercase;
+	border-radius: 30px;
+	font-size: 18px;
+	font-family: 'Alegreya', serif;
+	font-weight: 600;
+	border: 2px solid var(--boot);
+	background: none;
+	color: var(--boot);
+}
+
+
+
+.block2{
+	height: 200px;
+}
+.box0{
+	height: 200px;
+	padding-top: 100px;
+	text-align: center;
+}
+.box01{
+	height: 100px;
+}
+.box01 h2{
+	font-size: 44px;
+	color: var(--voot);
+	text-transform: capitalize;
+	font-weight: 700;
+	font-family: 'Alegreya', serif;
+}
+.box01 p{
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: capitalize;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.block3{
+	height: fit-content;
+}
+.box02{
+	height: fit-content;
+	
+}
+.box3{
+}
+.table{
+	padding: 80px;
+	margin-top: 32px;
+	text-align: center;
+	box-shadow: 0 0 21px rgba(0, 0, 0, 0.14)
+}
+.icon{
+	width: 85px;
+	height: 85px;
+	top: 0;
+	margin: 0 auto 30px;
+}
+.icon img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.table h3{
+	font-size: 26px;
+	font-weight: 700;
+	font-family: serif;
+	line-height: 26px;
+	letter-spacing: 1px;
+	color: var(--voot);
+}
+.table p{
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.8px;
+	line-height: 28px;
+}
+
+
+.block4{
+	height: 400px;
+	background: grey;
+	margin-top: 100px;
+}
+.box5{
+	height: 400px;
+}
+.box6{
+	height: 300px;
+	text-align: center;
+	margin-top: 100px;
+}
+.box6 h2{
+	font-size: 44px;
+	text-transform: capitalize;
+	font-weight: 700;
+	font-family: serif;
+	color: var(--boot);
+}
+.box6 h3{
+	font-size: 18px;
+	font-weight: 300;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	display: block;
+	color: var(--boot);
+	margin-top: 10px;
+}
+.play{
+	border: 2px solid var(--boot);
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	margin: auto;
+	margin-top: 50px;
+}
+.music{
+	font-size: 28px;
+	margin-top: 22px;
+	color: var(--boot);
+}
+.box6 p{
+	color: var(--boot);
+	margin-top: 10px;
+}
+
+.block5{
+	height: 200px;
+	background: #e4e4e4;
+}
+.box7{
+	height: 200px;
+	padding-top: 100px;
+	text-align: center;
+}
+.box07{
+	height: 100px;
+}
+.box07 h2{
+	font-size: 44px;
+	color: var(--voot);
+	text-transform: capitalize;
+	font-weight: 700;
+	font-family: 'Alegreya', serif;
+}
+.box07 p{
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: capitalize;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.block6{
+	height: fit-content;
+	background: #e4e4e4;
+}
+.box8{
+}
+.img{
+	display: flex;
+	justify-content: center;
+}
+.text{
+	width: 350px;
+	background: white;
+	padding: 20px;
+}
+.text h3{
+	font-size: 32px;
+	color: var(--noot);
+	font-weight: 700;
+	text-transform: capitalize;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-family: serif;
+}
+.text p{
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	letter-spacing: 0.8px;
+	line-height: 28px;
+}
+.text button{
+	padding: 7px 30px;
+	font-size: 16px;
+	font-family: serif;
+	font-weight: 700;
+	text-transform: capitalize;
+	border: 2px solid var(--doot);
+	color: var(--doot);
+	background: none;
+	border-radius: 30px;
+}
+
+.block7{
+	height: fit-content;
+	text-align: center;
+}
+.box9{
+	height: fit-content;
+	margin-top: 100px;
+}
+.box09{
+	height: fit-content;
+}
+.box09 h2{
+	font-size: 44px;
+	color: var(--voot);
+	text-transform: capitalize;
+	font-weight: 700;
+	font-family: 'Alegreya', serif;
+}
+.box09 p{
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: capitalize;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+.box09 button{
+	padding: 7px 30px;
+	margin: 0 5px;
+	font-size: 16px;
+	font-family: serif;
+	font-weight: 700;
+	text-transform: capitalize;
+	border: 2px solid var(--doot);
+	color: var(--doot);
+	background: none;
+	border-radius: 10px;
+}
+.box09 button:hover{
+	background: var(--doot);
+	color: var(--boot);
+}
+
+.block8{
+	height: fit-content;
+	margin-top: 50px;
+}
+.box10{
+	height: fit-content;
+}
+.box11{
+	height: fit-content;
+}
+.image{
+	width: 350px;
+	height: 233px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.image img{
+	width: 350px;
+	height: 233px;
+	object-fit: cover;
+}
+.box11 h3{
+	font-size: 26px;
+	font-weight: 700;
+	font-family: serif;
+	color: var(--voot);
+	line-height: 26px;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+
+.block9{
+	height: fit-content;
+	background: grey;
+}
+.box12{
+	height: fit-content;
+}
+.box13{
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+}
+.box13 input{
+	padding: 20px 70px;
+	background: none;
+	color: var(--boot);
+	border-bottom: 2px solid var(--boot);
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+.box14 h2{
+	font-size: 44px;
+	font-weight: 700;
+	font-family: serif;
+	color: var(--boot);
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.box14 p{
+	font-size: 18px;
+	font-weight: 300;
+	font-family: serif;
+	text-transform: capitalize;
+	display: block;
+	margin-top: 10px;
+	color: var(--boot);
+}
+.box15 input{
+	padding: 20px 500px;
+	background: none;
+	color: var(--boot);
+	border-bottom: 2px solid var(--boot);
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+.box15 button{
+	display: inline-block;
+	padding: 7px 30px;
+	font-size: 16px;
+	font-family: serif;
+	font-weight: 700;
+	text-transform: capitalize;
+	border: 2px solid var(--boot);
+	color: var(--boot);
+	background: none;
+	border-radius: 30px;
+}
